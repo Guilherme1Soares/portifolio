@@ -2,12 +2,6 @@
 @section('title', 'Guilherme - Portifólio')
 @section('content')
 
-{{-- @if($Google != null)
-    @section('keywords', $Google['text'])
-    @section('description', $Google['description'])    
-@endif --}}
-
-<!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="{{URL::to('public/libs/Swiper/package/css/swiper.min.css')}}">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link rel="stylesheet" href="site.css">
