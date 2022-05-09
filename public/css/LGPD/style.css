@@ -1,0 +1,597 @@
+.sticky-top{
+    position:fixed !important;
+    width:100%;
+}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: none;
+    }
+    strong{
+        color: #464646;
+        font-size: 16px;
+    }
+
+    :root
+    {
+        --font-default: 'Open Sans', sans-serif;
+        --font-bold: 'Open Sans', sans-serif;
+        --font-raleway: 'Open Sans', sans-serif;
+        --verde-default: #8F5F77;
+    }
+
+    body{
+        height:0px !important;
+        overflow:auto !important;
+    }
+
+    ul{
+        padding-left: 20px !important;
+    }
+
+    ul li{
+        font-family: var(--font-default);
+        font-size: 16px;
+        margin: 10px 0;
+        color: #464646;
+    }
+    .container-full{
+        max-width: 100%;
+    }
+
+    .container-static{
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-privacy .container-header{
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-privacy .container-header .header-items,
+    .header-privacy .container-header .privacidade{
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header-privacy .container-header .privacidade{
+        background-image: url("./engenho-de-imagens-termos.webp");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .header-privacy .container-header .privacidade img{
+        display: none;
+    }
+
+    .header-privacy .container-header .header-items{
+        background-color: #91d077;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .header-privacy .container-header .header-items span{
+        width: 55px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .header-privacy .container-header .header-items span i{
+        color: #464646;
+        font-size: 16px;
+    }
+
+    .header-privacy .container-header .header-items span:hover i{
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .header-privacy .container-header .header-items h1{
+        font-size: 36px;
+        font-family: var(--font-bold);
+        color: #fff;
+        margin: 30px;
+    }
+
+    .header-privacy .container-header .privacidade span{
+        width: 55px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #91d077;
+    }
+
+    .header-privacy .container-header .privacidade span i{
+        color: #fff;
+    }
+
+    .header-privacy .container-header .privacidade span:hover i{
+        color: #464646;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .backHome{
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 55px;
+        height: 55px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #91d077;
+        z-index: 4;
+    }
+
+    .backHome i{
+        font-size: 44px;
+        color: #464646;
+    }
+
+    .privacy-terms-area aside{
+        max-width: 338px;
+        width: 100%;
+    }
+    .privacy-terms-area{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 277px;
+    }
+
+    .privacy-terms-area .content-wrapper{
+        max-width: 826px;
+        width: 100%;
+        padding: 15px;
+    }
+    .privacy-terms-area .content-wrapper a{
+        text-decoration: none;
+        color: var(--verde-default);
+        font-family: var(--font-default);
+    }
+    /*POLÍTICA E PRIVACIDADE*/
+    .privacy-terms-area .content-wrapper .political-privacity h1{
+        font-size: 16px;
+        font-family: var(--font-bold);
+        color: var(--verde-default);
+        margin-bottom: 35px;
+    }
+
+    .privacy-terms-area .content-wrapper .political-privacity h2{
+        font-size: 16px;
+        font-family: var(--font-default);
+        color: #464646;
+    }
+
+    .privacy-terms-area .content-wrapper .political-privacity .text-wrapper p{
+        margin: 20px 0;
+        font-family: var(--font-default);
+        color: #464646;
+        font-size: 16px;
+    }
+
+    .privacy-terms-area .content-wrapper .political-privacity .text-wrapper{
+        margin-bottom: 75px;
+        margin-top: 75px;
+    }
+    /*END POLÍTICA E PRIVACIDADE*/
+
+    /*TERMOS DE USO*/
+    .privacy-terms-area .content-wrapper .termos-uso h1{
+        font-size: 16px;
+        font-family: var(--font-bold);
+        color: var(--verde-default);
+        margin-bottom: 35px;
+    }
+    .privacy-terms-area .content-wrapper .termos-uso h2
+    {
+        font-size: 16px;
+        font-family: var(--font-default);
+        color: #464646;
+    }
+
+    .privacy-terms-area .content-wrapper .termos-uso .text-wrapper p{
+        margin: 20px 0;
+        font-family: var(--font-default);
+        font-size: 16px;
+        color: #464646;
+    }
+
+    .privacy-terms-area .content-wrapper .termos-uso .text-wrapper{
+        margin-bottom: 75px;
+    }
+    /*END TERMOS DE USO*/
+
+    /*COOKIES*/
+    .privacy-terms-area .content-wrapper .cookies h2{
+        font-size: 16px;
+        font-family: var(--font-default);
+        color: #464646;
+    }
+
+    .privacy-terms-area .content-wrapper .cookies h1{
+        font-size: 16px;
+        font-family: var(--font-bold);
+        color: var(--verde-default);
+        margin-bottom: 35px;
+    }
+
+    .privacy-terms-area .content-wrapper .cookies .text-wrapper p{
+        margin: 20px 0;
+        color: #464646;
+        font-family: var(--font-default);
+        font-size: 16px;
+    }
+
+    .privacy-terms-area .content-wrapper .cookies .text-wrapper{
+        margin-bottom: 75px;
+    }
+    /*END COOKIES*/
+
+
+    /*COMPROMISSO*/
+    .privacy-terms-area .content-wrapper .compromisso h2{
+        font-size: 16px;
+        font-family: var(--font-default);
+        color: #464646;
+    }
+
+    .privacy-terms-area .content-wrapper .compromisso h1{
+        font-size: 16px;
+        font-family: var(--font-bold);
+        color: var(--verde-default);
+        margin-bottom: 35px;
+    }
+
+    .privacy-terms-area .content-wrapper .compromisso .text-wrapper p{
+        margin: 20px 0;
+        font-family: var(--font-default);
+        font-size: 16px;
+        color: #464646;
+    }
+
+    .privacy-terms-area .content-wrapper .compromisso .text-wrapper{
+        margin-bottom: 75px;
+    }
+
+    .privacy-terms-area .content-wrapper .compromisso .text-wrapper ol{
+        padding-left: 20px;
+    }
+
+    .privacy-terms-area .content-wrapper .compromisso .text-wrapper ol li{
+        font-size: 16px;
+        font-family: var(--font-default);
+        margin: 10px 0;
+    }
+    /*END COMPROMISSO*/
+
+    .privacy-terms-area .content-wrapper .cancelar-inscricao h2{
+        font-size: 16px;
+        font-family: var(--font-default);
+        color: #464646;
+    }
+
+    .privacy-terms-area .content-wrapper .cancelar-inscricao h1{
+        font-size: 16px;
+        font-family: var(--font-bold);
+        color: var(--verde-default);
+        margin-bottom: 35px;
+    }
+
+    .privacy-terms-area .content-wrapper .cancelar-inscricao p
+    {
+        margin: 20px 0;
+        font-family: var(--font-default);
+        font-size: 16px;
+    }
+    .privacy-terms-area .content-wrapper .cancelar-inscricao .text-wrapper p{
+        margin: 20px 0;
+        font-family: var(--font-default);
+        font-size: 16px;
+        color: #464646;
+    }
+
+    .privacy-terms-area .content-wrapper .cancelar-inscricao .text-wrapper{
+        margin-bottom: 75px;
+    }
+
+    .privacy-terms-area .content-wrapper .section{
+        position: relative;
+    }
+
+
+    .privacy-terms-area .content-wrapper .section::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        top: 26px;
+        z-index: 2;
+        right: 0;
+        height: 1px;
+        background-color: #ccc;
+    }
+
+    .privacy-terms-area .content-wrapper .section h1{
+        background-color: #fff;
+        z-index: 3;
+        position: relative;
+        width: fit-content;
+        padding-right: 35px;
+        padding-top: 16px;
+    }
+
+    .privacy-terms-area aside .aside-content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .privacy-terms-area aside .aside-content ul
+    {
+        list-style: none;
+    }
+
+    .privacy-terms-area aside .aside-content ul li{
+        padding: 15px 0;
+    }
+
+    .privacy-terms-area aside .aside-content ul li a{
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: var(--font-raleway);
+        color: #464646;
+        padding-left: 35px;
+        position: relative;
+    }
+
+    .privacy-terms-area aside .aside-content ul li a:hover{
+        color: var(--verde-default);
+        /*ALTERA A FONTE PRA BOLD*/
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+    }
+    .privacy-terms-area aside .aside-content ul li a:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 3px;
+        opacity: 0;
+        background-color: var(--verde-default);
+    }
+
+    .privacy-terms-area aside .aside-content ul li a:hover::before{
+        opacity: 1;
+        transition: all 0.3s ease-in-out;   
+    }
+
+    .ativo a{
+        color: var(--verde-default) !important;
+        /*FONTE BOLD*/
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: var(--font-raleway) !important;
+        font-weight: bold;
+        position: relative;
+
+    }
+
+    .ativo a:after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 3px;
+        opacity: 1;
+        background-color: var(--verde-default);
+    }
+
+    .fixo{
+        position: sticky;
+        top: 145px;
+        left: 42px;
+    }
+
+    form{
+        margin: 57px 0;
+    }
+    .row-privacy{
+        display: flex;
+        max-width: 637px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .row-privacy .nome
+    {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .row-privacy .whats
+    {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .row-privacy label{
+        font-family: var(--font-raleway);
+        font-size: 16px;
+        padding-left: 15px;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    .row-privacy .whats input{
+        width: 100%;
+        height: 40px;
+        border-style: none;
+        padding-left: 15px;
+        border: 1px solid #464646;
+    }
+    .row-privacy .nome input::placeholder{
+        color: #464646;
+        font-size: 16px;
+        font-family: var(--font-raleway);
+    }
+
+    .row-privacy .whats input::placeholder{
+        color: #464646;
+        font-size: 16px;
+        font-family: var(--font-raleway);
+    }
+
+    .row-privacy .nome input{
+        width: 100%;
+        height: 40px;
+        border-style: none;
+        border: 1px solid #464646;
+        padding-left: 15px;
+    }
+
+    .row-privacy .email{
+        display: flex;
+        flex-direction: column;
+        max-width: 468px;
+        margin-top: 36px;
+        width: 100%;
+    }
+
+    .row-privacy .email input{
+        width: 100%;
+        height: 40px;
+        border-style: none;
+        border: 1px solid #464646;
+        padding-left: 15px;
+    }
+
+    .row-privacy .email input::placeholder{
+        color: #464646;
+        font-size: 16px;
+        font-family: var(--font-raleway);
+    }
+
+    .row-privacy .btn-area{
+        width: 100%;
+        max-width: 132px;
+        height: 40px;
+        margin-top: 55px;
+    }
+
+    .row-privacy .btn-area button{
+        display: flex;
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background-color: #464646;
+        font-size: 30px;
+        color: #fff;
+        font-family: var(--font-default);
+        cursor: pointer;
+        border-style: none;
+        margin-top: 3px;
+    }
+
+    .backToTop
+    {
+        background-image:url(data:image/webp;base64,UklGRvoBAABXRUJQVlA4WAoAAAAQAAAAJQAAhAAAQUxQSDEAAAABR0Amgpm9n9hEsWomImLCJRxqIklSTJyXS1HMxfekgJyvg6+I/k+ABE774flLUwtnAFZQOCCiAQAAEAwAnQEqJgCFAD6RQp5KpaOjIacyuYiwEgllANOBEYiO2gcWdHjCSKBHVhC9ZQVtXvgRK5+n2nNL2Tq0N418ZNJ3bHADWcoGoWuYdi0HuCk/zavQYe6wAZjYNLnMHsYYXH290vzfmDNAAP7uvZ/+Lfg37Iyw/195Q7FGNUYWUMfdFja3u2DVRs2s3P3M3bEgBdVyBx/LWes5aaGY8TW2CC2SrX8X6Cp6FZs81QWY9V/HrhVdNnV7aH8PX0gNCsKNalfoZdAjV/m0VU6wsWJZdvtPcai5ItB3PKYUdc+0XFOvFRLA2K2JdelBvxz5kSo6yHowV7XIW7UmQe5O5n3hYX7Z2jDUNfLrU0Mb/lgjm1ChnZbDZ7ClWaqDzfiehrCtC6y3TpzrGyVQOhuHUpTsPAa6NrY/sVhGlSvY/XIvaPkLnlnACfkIKoPk2U8i1YAMIhG2uUPS281gi8+/q6af5eKb0IuVD6GxrO5PS0bD3Ex36EadZGsRXdPGQy/yzj3a/9tX0CT3wZjmWzsCB6eWniynlBIusTZXkywArkh9LwFgAA==);
+        width: 38px;
+        height: 133px;
+        cursor: pointer;
+        position: fixed;
+        right: 0;
+        bottom: 110px;
+        z-index: 9;
+    }
+
+    footer{
+        z-index: 4 !important;
+    }
+    @media(max-width: 992px)
+    {
+        .header-privacy .container-header{
+            flex-direction: column;
+        }
+        .header-privacy .container-header .privacidade{
+            min-height: auto;
+        }
+
+        .header-privacy .container-header .privacidade img{
+            display: block;
+            max-width: 100%;
+        }
+        .header-privacy .container-header .header-items span,
+        .header-privacy .container-header .privacidade span{
+            display: none;
+        }
+
+        .header-privacy .container-header .header-items
+        {
+            justify-content: center;
+            min-height: 339px;
+        }
+
+        .privacy-terms-area aside{
+            display: none;
+        }
+
+        .privacy-terms-area .content-wrapper{
+            max-width: none;
+        }
+        .backToTop
+        {
+            display: none;
+        }
+        .row-privacy .btn-area button{
+            margin-top: 0;
+        }
+    }
+
+    @media(max-width: 764px)
+    {
+        .row-privacy{
+            flex-direction: column;
+            max-width: none;
+            justify-content: center;
+        }
+
+        .row-privacy .whats
+        {
+            margin-top: 36px;
+        }
+
+        .row-privacy .nome,
+        .row-privacy .whats,
+        .row-privacy .email{
+            max-width: none;
+        }
+    }

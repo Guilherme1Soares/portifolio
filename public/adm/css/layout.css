@@ -1,0 +1,71 @@
+.sidebar .mt-2 .nav-item {
+    background-color: #343a40;
+    margin-bottom: 10px;
+}
+.sidebar .mt-2 ul .nav-item .nav, .sidebar .mt-2 ul .nav-item .nav li{
+    margin-left: 15px;
+}
+/*bem vindo nav message */
+.main-header .nav-item .wellcome-title {
+    margin-right: 10px;
+}
+/* end bem vindo nav message*/
+/* menu logout */
+.main-header {
+    height: 80px;
+}
+
+.navbar-expand .navbar-nav .dropdown-menu {
+    height: 272px;
+    overflow-y: scroll;
+    padding-bottom: 40px;
+}
+.menu-logout .navbar-expand .navbar-nav .dropdown-menu {
+    height: 50px !important;
+    overflow-y: scroll;
+    padding-bottom: 40px;
+}
+.dropdown-footer {
+    position: fixed;
+    top: 297px;
+    z-index: 1000;
+    width: 261px;
+    background-color: #fff;
+}
+.main-header .menu-logout {
+    list-style: none;
+}
+/* end menu logout */
+/* notification menu */
+.main-header .notification {
+    padding-right: 50px;
+}
+
+@media (max-width: 450px) {
+    .main-header .notification {
+        padding-right: 0px;
+    }
+}
+/* end notification menu */
+.nav-sidebar .nav-link .ml-10 {
+    margin-left: 10px;
+}
+
+.user-panel .image {
+    padding-left: 5px;
+}
+
+.user-panel img
+{
+    max-width: 100%;
+    height: auto;
+    width: initial;
+}
+
+footer .logo-area {
+    width: 315px;
+    margin: 0 auto;
+}
+footer .logo-area img {
+    width: 100%;
+}

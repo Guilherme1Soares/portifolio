@@ -1,0 +1,18 @@
+.container .form-area .title-area {
+    text-align: center;
+}
+.container .form-area .form-box {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container .form-area .btn-area button {
+    width: 100px;
+    margin-right: 50px;
+}
+.container .form-area .btn-area a {
+    width: 100px;
+}
+.container .form-area .text-danger {
+    font-style: italic;
+}

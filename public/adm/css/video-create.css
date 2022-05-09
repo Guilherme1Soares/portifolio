@@ -1,0 +1,66 @@
+.container .form-area .title-area {
+    text-align: center;
+}
+.container .form-area .form-box {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container .form-area .postNow, 
+.container .form-area .postAfter{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+.container .form-area .text-danger {
+    font-style: italic;
+}
+.container .form-area .img-area {
+    width: 300px;
+    height: 160px;
+}
+.container .form-area .img-area img {
+    width: 100%;
+    height: 100%;
+}
+.container .form-area .text-area {
+    margin-top: 20px;
+}
+.container .form-area .btn-area button {
+    width: 100px;
+    margin-right: 50px;
+}
+.container .form-area .btn-area a {
+    width: 100px;
+}
+/*
+    animations and function
+*/
+#hide {
+    display: none;
+}
+iframe{
+    background-image: url('../img/bg-video.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#videoFrame
+{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+#videoFrame iframe
+{
+    width:50%;
+}
+@media(max-width:992px){
+    #videoFrame iframe{
+        width:100%;
+    }
+}

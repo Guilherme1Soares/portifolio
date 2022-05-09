@@ -1,0 +1,20 @@
+.container .form-area {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container .form-area .title-area {
+    text-align: center;
+}
+.container .form-area .titulo-ordem  .ordem,
+.container .form-area .sortable .ordem {
+    margin-left: 20px;
+}
+.container .form-area .titulo-ordem .titulo,
+.container .form-area .sortable .titulo {
+    margin-left: 40px;
+}
+.container .form-area .sortable .titulo,
+.container .form-area .sortable .ordem {
+    display: inline-block;
+}
